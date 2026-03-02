@@ -438,7 +438,7 @@ function gameOver() {
 
   // 🔥 ยิงไป backend แบบ background
   if (rewardAmount > 0) {
-    fetch("http://localhost:3000/reward", {
+    fetch("https://skydrop-backend-1.onrender.com/reward", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
